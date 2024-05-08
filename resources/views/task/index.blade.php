@@ -14,8 +14,12 @@
         body {
             color: light-dark(black, white);
             background-color: light-dark(#0693e3, #000E16);
+        }
+
+        header {
             display: grid;
             place-content: center;
+            text-align: center;
         }
 
         img {
@@ -57,7 +61,10 @@
 </head>
 
 <body>
-    <img width="339" height="64" src="https://acertemos.com/wp-content/uploads/2022/04/logo_nuevo.png" class="elementor-animation-pulse attachment-full size-full" alt="" srcset="https://acertemos.com/wp-content/uploads/2022/04/logo_nuevo.png 339w, https://acertemos.com/wp-content/uploads/2022/04/logo_nuevo-300x57.png 300w" sizes="(max-width: 339px) 100vw, 339px">
+    <header>
+        <img width="339" height="64" src="https://acertemos.com/wp-content/uploads/2022/04/logo_nuevo.png" class="elementor-animation-pulse attachment-full size-full" alt="" srcset="https://acertemos.com/wp-content/uploads/2022/04/logo_nuevo.png 339w, https://acertemos.com/wp-content/uploads/2022/04/logo_nuevo-300x57.png 300w" sizes="(max-width: 339px) 100vw, 339px">
+        <h1>Gestor de tareas</h1>
+    </header>
     <form action="{{url('/')}}" method="post" class="create">
         @csrf
         <label>
@@ -77,7 +84,7 @@
     </form>
 
     <table>
-        <caption>Gestor de tareas</caption>
+        <caption>Tareas creadas</caption>
         <thead>
             <tr class="table_titles">
                 <th scope="col">Título</th>
