@@ -21,11 +21,11 @@ Desarrollada por Andres David Suarez Quiñones
 -   Abrir en el navegador la url http://localhost:8000/
 -   Utilizar el formulario para Crear tareas y posteriormente puede usar el botón ❌ para eliminar la tarea de la base de datos
 
-###Objetivo esperado:
+### Objetivo esperado:
 Se espera que el usuario pueda visualizar una interfáz como se muestra a continuación:
 ![image](https://github.com/Adsuarez/laravel-task-manager/assets/26845524/669f5f84-d204-4062-90f7-41cb09aba47e)
 
-###Objetivos futuros:
+### Objetivos futuros:
 - Agregar validaciones a los campos de fecha, para que no se pueda ingresar una fecha anterior al momento de la creación de la tarea.
 - Mejorar los estilos para que cada campo corresponda con su título en la tabla.
 - Agregar la funcionalidad para modificar el título, la descripción, la fecha de vencimiento o el estado de la tarea.
